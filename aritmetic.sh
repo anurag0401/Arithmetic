@@ -21,3 +21,10 @@ Dict[3]=$val3
 Dict[4]=$val4
 
 echo "dictionary values are:" ${Dict[@]}
+
+Computation=${Dict[@]}
+for values in $Computation
+do
+	array[count++]=$values
+done
+echo "values in array:" ${array[@]}
