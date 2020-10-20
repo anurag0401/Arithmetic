@@ -6,5 +6,7 @@ read c
 val1=$(( a+b*c ))
 echo $val1
 
+val2=$(( a*b+c ))
+echo $val2
 
 
