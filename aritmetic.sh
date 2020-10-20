@@ -3,9 +3,8 @@ echo "Enter 3 numbers:"
 read a
 read b
 read c
-
-echo $a $b $c
-
+val1=$(( a+b*c ))
+echo $val1
 
 
 
