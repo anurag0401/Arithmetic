@@ -28,3 +28,5 @@ do
 	array[count++]=$values
 done
 echo "values in array:" ${array[@]}
+
+sortDescending=`echo ${array[@]} | awk 'BEGIN{RS=" "} {print $1}' |sort -nr `
